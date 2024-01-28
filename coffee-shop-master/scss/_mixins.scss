@@ -1,0 +1,9 @@
+@mixin fancy-border($offset, $height: 100%, $width: 100%, $color: black) {
+  box-sizing: border-box;
+  position: absolute;
+  height: $height;
+  width: $width;
+  border: 3px solid $color;
+  background-color: rgba(0, 0, 0, 0);
+  margin: -$offset 0 -$offset 0;
+}

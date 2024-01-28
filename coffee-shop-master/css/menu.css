@@ -1,0 +1,131 @@
+.heading-1, .m-hero__title, .heading-2, .menu__heading {
+  font-size: 3.75rem;
+  font-weight: 100;
+}
+
+.heading-3, .menu__item-title, .footer-heading {
+  font-size: 2.063rem;
+  font-weight: 100;
+}
+
+.nav-heading {
+  font-size: 3.125rem;
+  font-weight: 100;
+}
+
+.nav-link-text, .btn-text, .small-text, .menu__item-price {
+  font-size: 1.313rem;
+}
+
+.discount-text {
+  font-size: 2.813rem;
+}
+
+.menu-text, .menu__item-description {
+  font-size: 1.125rem;
+}
+
+.standard-text {
+  font-size: 2.063rem;
+}
+
+.menu-container {
+  margin-top: 6.8125rem;
+}
+
+.menu-nav {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-nav a {
+  padding: 0 0.938rem;
+  color: white;
+}
+
+.menu-nav li {
+  border-left: 3px solid #5BACC3;
+}
+
+.m-hero {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.m-hero__img {
+  width: 100%;
+  height: 46.875rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: center;
+  display: block;
+}
+
+.m-hero__title {
+  color: white;
+  margin: 0;
+}
+
+.m-hero__title-box {
+  width: 17.813rem;
+  height: 11.563rem;
+  position: absolute;
+  top: calc(50% - 5.7815rem);
+  left: calc(50% - 8.9065rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.m-hero__title-box--border {
+  width: 17.813rem;
+  height: 11.563rem;
+  position: absolute;
+  top: calc(50% - 6.6815rem);
+  left: calc(50% - 9.8065rem);
+  border: 3px solid #5BACC3;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.menu {
+  scroll-margin: 6.8125rem;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.menu__heading {
+  margin: 0;
+}
+
+.menu__item-title {
+  margin: 1.25rem 0 0 0;
+}
+
+.menu__item-description {
+  margin: 0.938rem auto 0 auto;
+  left: 0;
+  right: 0;
+  font-style: italic;
+  width: 25%;
+}
+
+.menu__item-price {
+  margin-top: 0.938rem;
+  color: #5BACC3;
+}
+
+.bg-grey {
+  background-color: #393939;
+}
+
+.bg-lgrey {
+  background-color: #f7f7f7;
+}
+/*# sourceMappingURL=menu.css.map */

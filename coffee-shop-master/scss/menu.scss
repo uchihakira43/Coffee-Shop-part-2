@@ -1,0 +1,99 @@
+@import "constants";
+@import "mixins";
+
+.menu-container {
+  margin-top: 6.8125rem;
+}
+
+.menu-nav {
+  text-align: center;
+  text-transform: uppercase;
+
+  a {
+    padding: 0 0.938rem;
+    color: white;
+  }
+
+  li {
+    border-left: 3px solid $blue;
+  }
+}
+
+.m-hero {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+  &__img {
+    width: 100%;
+    height: 46.875rem;
+    object-fit: cover;
+    position: center;
+    display: block;
+  }
+  
+  &__title {
+    @extend .heading-1;
+    color: white;
+    margin: 0;
+  }
+
+  &__title-box {
+    width: 17.813rem;
+    height: 11.563rem;
+    position: absolute;
+    top: calc(50% - 5.7815rem);
+    left: calc(50% - 8.9065rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--border {
+      width: 17.813rem;
+      height: 11.563rem;
+      position: absolute;
+      top: calc(50% - 6.6815rem);
+      left: calc(50% - 9.8065rem);
+      border: 3px solid $blue;
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+.menu {
+  scroll-margin: 6.8125rem;
+  text-align: center;
+  padding: 1.25rem 0;
+  
+  &__heading {
+    @extend .heading-2;
+    margin: 0;
+  }
+  &__item-title {
+    @extend .heading-3;
+    margin: 1.25rem 0 0 0;
+  }
+  
+  &__item-description {
+    @extend .menu-text;
+    margin: 0.938rem auto 0 auto;
+    left: 0;
+    right: 0;
+    font-style: italic;
+    width: 25%;
+  }
+  
+  &__item-price {
+    @extend .small-text;
+    margin-top: 0.938rem;
+    color: $blue;
+  }
+}
+
+.bg-grey {
+  background-color: $grey;
+}
+
+.bg-lgrey {
+  background-color: $lgrey;
+}
